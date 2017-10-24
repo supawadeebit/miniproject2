@@ -1,0 +1,19 @@
+<?php
+//--switch01.php
+	$username="webmaster";
+	switch($username)
+{
+	case"managre":
+		echo"ยินดีต้อนรับผู้คุณจัดการ";
+		break;
+	case"admin":
+		echo"ยินดีตอนรับคุณคือผู้ดูแลระบบ";
+		break;
+	case"webmaster":
+		echo"ยินดีตอนรับคุณคือผู้ดูแลเว็บไซต์";
+		break;
+	default:
+		echo"ยินดีตอนรับคุณคือผู้ใช้งาน";
+}
+
+?>
